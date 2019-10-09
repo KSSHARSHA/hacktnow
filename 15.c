@@ -17,7 +17,7 @@ int main()
    void reverse(char *y, int begin, int end)
 {
 	   
-   char c;
+   char c ;
  
    if (begin >= end){
 	   
@@ -28,5 +28,6 @@ int main()
    *(y+begin) = *(y+end);
    *(y+end)   = c;
  }
+	   
    reverse(y, ++begin, --end);
 }
